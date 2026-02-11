@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- เมนู -->
+    <div id="menu-container"></div>
+
+    <!-- ส่วนหัว -->
+    <div class="container px-4 py-5 text-center">
+        <h1 class="display-5 fw-bold">ติดต่อเรา</h1>
+        <p class="lead">หากต้องการติดต่อหน่วยนินจาดำ สามารถกรอกข้อมูลด้านล่างได้เลย</p>
+    </div>
+
+    <!-- ฟอร์มติดต่อ -->
+    <div class="container col-xl-8 col-lg-10 pb-5">
+        <div class="row g-4">
+            
+            <!-- ข้อมูลติดต่อ -->
+            <div class="col-lg-5">
+                <div class="p-4 border rounded bg-light h-100">
+                    <h4>ข้อมูลติดต่อ</h4>
+                    <p><strong>ที่อยู่:</strong><br>
+                        บ้านสงเปือย เมืองนาทรายทอง<br>
+                        นครเวียงจันทน์
+                    </p>
+                    <p><strong>โทรศัพท์:</strong> 066-666-6667</p>
+                    <p><strong>Email:</strong> ninja@Laos.com</p>
+                </div>
+            </div>
+
+            <!-- ฟอร์ม -->
+            <div class="col-lg-7">
+                <form class="p-4 border rounded bg-body-tertiary">
+                    
+                    <div class="mb-3">
+                        <label class="form-label">ชื่อ-นามสกุล</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">อีเมล</label>
+                        <input type="email" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">หัวข้อ</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">ข้อความ</label>
+                        <textarea class="form-control" rows="4" required></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
+                        <button type="reset" class="btn btn-secondary">ยกเลิก</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/menu.js"></script>
+
+</body>
+
+</html>
